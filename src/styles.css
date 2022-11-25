@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+.makeItMiddle{
+    transform: translate(-50%, -50%);
+}
+
+::ng-deep .cdk-overlay-pane {
+    align-items: center;
+  }
